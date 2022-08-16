@@ -8,21 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-  <style>
-#canvas{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);               
-}
-  </style>
   <body>
-    <div>
-      <nav class="stopper">
-          <p>Errors: <span id="countErrors">0</span></p>
-          <p id="finishTime">Time: <span id="mins">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
-      </nav>
-    </div>
+    <nav class="stopper">
+      <p>Errors: <span id="countErrors">0</span></p>
+      <p id="finishTime">Time: <span id="mins">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+    </nav>
     <canvas id="canvas" width="800" height="500" style="border:1px solid"/>
     <script type="module" src="./hexagon/hexagon.js"></script>
   </body>
